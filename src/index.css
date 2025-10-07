@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.table th, .table td { @apply px-3 py-2; }
+.card { @apply bg-white rounded-lg shadow p-4; }
+.btn { @apply inline-flex items-center gap-2 px-4 py-2 rounded-lg font-semibold transition; }
+.btn-primary { @apply bg-blue-600 text-white hover:bg-blue-700; }
+.btn-ghost { @apply text-gray-600 hover:bg-gray-50; }
+.badge { @apply inline-flex items-center text-xs font-medium px-2 py-0.5 rounded; }
